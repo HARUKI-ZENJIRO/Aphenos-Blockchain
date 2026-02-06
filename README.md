@@ -195,8 +195,7 @@ aphenos-cli balance --pk-path alice/public.key
 ### 📊 6. Chain Information
 bash
 aphenos-cli info
-
-
+```
 ---
 
 ## 📊 Testnet Status
