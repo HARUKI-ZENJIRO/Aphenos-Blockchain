@@ -40,10 +40,15 @@ This version corresponds to **TESTNET v0.1**, focused on testing, demonstrations
 ## 🚀 Main Features
 
 **PoUW Mock (CPU-based):** The miner performs real work on the CPU to find a valid nonce according to the difficulty.
+
 **ZKP Mock:** Each block includes a deterministic ZK proof that simulates the structure of a real circuit.
+
 **Bitcoin-style dynamic difficulty:** Low initial difficulty (testnet) with automatic adjustment via `[next_bits()]` and retarget every 2016 blocks.
+
 **Transactions signed with Ed25519:** Includes incremental nonces, replay prevention, and full signature verification.
+
 **Real Mining:** CPU consumption, nonce search, mock ZKP testing, block application, and miner rewards.
+
 **Fast Testnet:** Blocks in seconds, ideal for testing and learning.
 
 ---
