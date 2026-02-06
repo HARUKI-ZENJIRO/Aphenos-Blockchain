@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "aphenos-core",
+    "aphenos-cli",
+    "aphenos-node",
+    "aphenos-pouw",
+]
+
+resolver = "2"

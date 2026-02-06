@@ -1,0 +1,97 @@
+# ============================
+# APHENOS BLOCKCHAIN PROJECT
+# .gitignore PROFESIONAL
+# ============================
+
+# ----------------------------
+# 1. RUST BUILD ARTIFACTS
+# ----------------------------
+target/
+Cargo.lock
+*.rlib
+*.rmeta
+
+# ----------------------------
+# 2. BINARIOS
+# ----------------------------
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.out
+
+# ----------------------------
+# 3. ARCHIVOS DE LA BLOCKCHAIN
+# ----------------------------
+chain.json
+inbox/
+*.json
+
+# ----------------------------
+# 4. CLAVES PRIVADAS Y WALLETS
+# ----------------------------
+*.key
+miner_secret.key
+miner_public.key
+alice/
+wallets/
+keystore/
+*.pem
+
+# ----------------------------
+# 5. LOGS Y ARCHIVOS TEMPORALES
+# ----------------------------
+*.log
+*.tmp
+*.bak
+*.old
+*.swp
+*.swo
+
+# ----------------------------
+# 6. ARCHIVOS DE SISTEMA (Windows)
+# ----------------------------
+Thumbs.db
+Desktop.ini
+
+# ----------------------------
+# 7. ARCHIVOS DE SISTEMA (macOS)
+# ----------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ----------------------------
+# 8. ARCHIVOS DE SISTEMA (Linux)
+# ----------------------------
+*~
+
+# ----------------------------
+# 9. CONFIGURACIONES DE EDITORES
+# ----------------------------
+.vscode/
+.idea/
+*.iml
+
+# ----------------------------
+# 10. ARCHIVOS DE COMPRESIÓN
+# ----------------------------
+*.zip
+*.tar.gz
+*.7z
+*.rar
+
+# ----------------------------
+# 11. ARCHIVOS DE DOCUMENTOS
+# ----------------------------
+*.docx
+*.pdf
+*.xlsx
+*.pptx
+
+# ----------------------------
+# 12. ARCHIVOS DE INSTALADORES
+# ----------------------------
+install.sh
+install.ps1
