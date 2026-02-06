@@ -195,3 +195,30 @@ aphenos-cli balance --pk-path alice/public.key
 ### 📊 6. Chain Information
 bash
 aphenos-cli info
+
+
+---
+
+## 📊 Testnet Status
+* Stable height and functional mining.
+* Validated PoUW and ZKP mock.
+* Error-free complete flow.
+* Ideal for community testing.
+
+---
+
+## 🗺️ ROADMAP
+*(Flexible dates depending on technical challenges)*
+
+**v0.2 — Real PoUW:** Integration of Halo2/Plonk circuits and real ZK proofs.
+
+**v0.3 — Block Explorer:** RPC API, Web Dashboard, and transaction history.
+
+**v0.4 — Graphical Wallet:** Send/Receive APS, Key management and local node integration.
+
+**v1.0 — Mainnet:** Real PoUW/ZKP, Low initial mining difficulty, economic incentives.
+
+---
+
+## Contributing
+Pull requests, ideas, and discussions are welcome. This project is in its early stages with a clear vision: turning useful work into blockchain security.
